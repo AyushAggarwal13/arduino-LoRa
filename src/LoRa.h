@@ -5,7 +5,7 @@
 #include <SPI.h>
 
 #define LORA_DEFAULT_SS_PIN    10
-#define LORA_DEFAULT_RESET_PIN 9
+#define LORA_DEFAULT_RESET_PIN A1   //changed by Armtronix to suite Armtronix Arduino lora  board 
 #define LORA_DEFAULT_DIO0_PIN  2
 
 class LoRaClass : public Stream {
