@@ -24,10 +24,10 @@ An [Arduino](http://arduino.cc/) library for sending and receiving data using [L
 | NRESET | A1 |
 | DIO0 | 2 |
 | DIO1 | 3 |
-| DIO0 | 9 |
+| DIO2 | 9 |
 
 
-`NSS`, `NRESET`, and `DIO0` pins can be changed by using `LoRa.setPins(ss, reset, dio0)`. `DIO0` pin is optional, it is only needed for receive callback mode.
+`NSS`, `NRESET`, and `DIO0` pins can be changed by using `LoRa.setPins(ss, reset, dio0)`. `DIO0` pin is optional, it is only needed for receive callback mode.DIO1,DIO2are generally used with LoraWan
 
 ## Installation
 
