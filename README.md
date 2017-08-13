@@ -29,6 +29,23 @@ An [Arduino](http://arduino.cc/) library for sending and receiving data using [L
 
 `NSS`, `NRESET`, and `DIO0` pins can be changed by using `LoRa.setPins(ss, reset, dio0)`. `DIO0` pin is optional, it is only needed for receive callback mode.DIO1,DIO2are generally used with LoraWan
 
+### Semtech SX1276/77/78/79 wiring onArduino Uno Lora Board v0.2 
+
+| Semtech SX1276/77/78/79 | Arduino Uno/Atmeg328P |
+| :---------------------: | :------:|
+| VCC | 3.3V |
+| GND | GND |
+| SCK | SCK |
+| MISO | MISO |
+| MOSI | MOSI |
+| NSS | 10 |
+| NRESET | A1 |
+| DIO0 | 2 |
+| DIO1 | 6 |
+| DIO2 | 7 |
+
+NSS`, `NRESET`, and `DIO0` pins can be changed by using `LoRa.setPins(ss, reset, dio0)`. `DIO0` pin is optional, it is only needed for receive callback mode.DIO1,DIO2are generally used with LoraWan
+
 ## Installation
 
 ### Using the Arduino IDE Library Manager
